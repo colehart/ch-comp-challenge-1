@@ -1,0 +1,297 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  grid-template-rows: 1fr;
+  background-color: #263238;
+  font-family: 'Cutive Mono', serif;
+  letter-spacing: -0.06rem;
+  color: #eceff1;
+}
+
+h1, h2, h3 {
+  font-family: 'Contrail One', serif;
+  letter-spacing: 0;
+}
+
+h1 {
+  margin-bottom: .5rem;
+  font-size: 1.75rem;
+  letter-spacing: .3rem;
+}
+
+main {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  z-index: 2;
+}
+
+header {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem 1.75rem;
+  background-color: #04030A;
+}
+
+p {
+  padding: .4rem 0 0;
+  line-height: 1.5rem;
+}
+
+.header-buttons {
+  width: 16rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: .5rem;
+}
+
+.header-buttons img {
+  height: 1rem;
+  width: 1rem;
+  margin: 0 .5rem .2rem 0;
+}
+
+.header-buttons button {
+  height: 2.75rem;
+  width: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: 0;
+  border: 1.5px solid;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #eceff1;
+}
+
+.header-buttons button:hover {
+  background-color: #ffffff;
+  border: 1.5px solid;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #04030A;
+}
+
+.header-buttons button .resume-button-hover,
+.header-buttons button .contact-button-hover {
+  display: none;
+}
+
+
+.header-buttons button:hover .resume-button,
+.header-buttons button:hover .contact-button {
+  display: none;
+}
+
+.header-buttons button:hover .resume-button-hover,
+.header-buttons button:hover .contact-button-hover {
+  display: block;
+}
+
+h2 {
+  letter-spacing: .075rem;
+}
+
+.box1 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #263238;
+}
+
+h3 {
+  padding-top: .75rem;
+  letter-spacing: .075rem;
+  font-size: .9rem;
+}
+
+article img {
+  height: 4rem;
+  width: 4rem;
+}
+
+article:hover {
+  background-color: #6D7C81;
+}
+
+.box2 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #37474f;
+}
+
+.box3 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #455a64;
+}
+
+.box4 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #566673;
+}
+
+.box5 {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #546e7a;
+}
+
+.box6 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #263238;
+}
+
+.box7 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #37474f;
+}
+
+.overlay {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-image: url(images/craig-whitehead-463489-unsplash.jpg);
+  background-size: cover;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+  opacity: 0.5;
+  mix-blend-mode: screen;
+}
+
+.hero-image {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: flex-end;
+  font-family: serif;
+  font-size: 4.9rem;
+  letter-spacing: -.75rem;
+  padding-right: 1.25rem;
+}
+
+.carousel-dots span {
+  color: rgba(255, 255, 255, .5);
+}
+
+.slideshow-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slideshow-buttons button {
+  border: 0;
+  height: 3.75rem;
+  width: 3.75rem;
+  background-size: cover;
+  background-color: rgba(0, 0 ,0, 0);
+}
+
+.slideshow-buttons .left,
+.slideshow-buttons .left-hover {
+  margin-left: .6rem;
+}
+
+.left-hover {
+  transform: rotate(180deg);
+}
+
+.slideshow-buttons .right,
+.slideshow-buttons .right-hover {
+  margin-right: .6rem;
+}
+
+.left-hover,
+.right-hover {
+  margin-bottom: .1rem;
+}
+
+.slideshow-buttons button .right-hover,
+.slideshow-buttons button .left-hover {
+  display: none;
+}
+
+.slideshow-buttons button:hover .right,
+.slideshow-buttons button:hover .left {
+  display: none;
+}
+
+.slideshow-buttons button:hover .right-hover,
+.slideshow-buttons button:hover .left-hover {
+  display: block;
+}
+
+.slideshow-buttons button:focus {
+  outline: 0;
+}
+
+.spaceholder {
+  height: 2rem;
+}

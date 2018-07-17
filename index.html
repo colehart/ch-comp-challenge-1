@@ -2,66 +2,80 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="images/detective-bw.png">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Static Comp 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Contrail+One|Cutive+Mono" rel="stylesheet">
+    <title>FILM NOIR</title>
   </head>
   <body>
     <main>
       <header>
-        <h1>Bradley Cooper</h1>
-        <p>I'm a Graphic Designer, Coder & Entrepreneur.</p>
-        <p>Take a look at my portfolio to see what I've been working on.</p>
-        <button>
-          <img src="" alt="resume icon">
-          <h2>RESUME</h2>
-        </button>
-        <button>
-          <img src="" alt="contact icon">
-          <h2>CONTACT</h2>
-        </button>
+        <h1>FILM NOIR</h1>
+        <p>It was a dark and stormy night.<br> The clouds wept for the city I once knew.</p>
+        <div class="header-buttons">
+          <button>
+            <img class="resume-button" src="images/briefcase.svg" alt="resume icon">
+            <img class="resume-button-hover" src="images/briefcase-hover.svg" alt="resume icon">
+            <h2>RESUME</h2>
+          </button>
+          <button>
+            <img class="contact-button" src="images/telephone.svg" alt="contact icon">
+            <img class="contact-button-hover" src="images/telephone-hover.svg" alt="contact icon">
+            <h2>CONTACT</h2>
+          </button>
+        </div>
       </header>
       <article class="box1">
-        <img src="" alt="profile icon">
+        <img src="images/hat.svg" alt="profile icon">
         <h3>PROFILE</h3>
       </article>
       <article class="box2">
-        <img src="" alt="experience icon">
+        <img src="images/mallet.svg" alt="experience icon">
         <h3>EXPERIENCE</h3>
       </article>
       <article class="box3">
-        <img src="" alt="education icon">
+        <img src="images/footprint.svg" alt="education icon">
         <h3>EDUCATION</h3>
       </article>
       <article class="box4">
-        <img src="" alt="blog icon">
+        <img src="images/typewriter.svg" alt="blog icon">
         <h3>BLOG</h3>
       </article>
       <article class="box5">
-        <img src="" alt="social menu icon">
+        <img src="images/skull.svg" alt="social menu icon">
         <h3>SOCIAL MENU</h3>
       </article>
       <article class="box6">
-        <img src="" alt="contact icon">
+        <img src="images/tag.svg" alt="contact icon">
         <h3>CONTACT</h3>
       </article>
       <article class="box7">
-        <img src="" alt="portfolio icon">
+        <img src="images/fingerprint.svg" alt="portfolio icon">
         <h3>PORTFOLIO</h3>
       </article>
     </main>
+    <div class="overlay">
+      <video autoplay loop muted>
+        <source src="images/rain2.mp4" type="video/mp4">
+      </video>
+    </div>
     <section class="hero-image">
       <div class="carousel-dots">
-        <img src="" alt="opaque white dot, indicating the site is showing the current photo in a slideshow">
-        <img src="" alt="transparent white dot, indicating a hidden photo in a slideshow">
-        <img src="" alt="transparent white dot, indicating a hidden photo in a slideshow">
+        <p>&middot <span>&middot &middot</span></p>
       </div>
       <div class="slideshow-buttons">
-        <button aria-label="previous photo"><img src="" alt="previous photo button"></button>
-        <button aria-label="next photo"><img src="" alt="next photo button"></button>
+        <button aria-label="previous photo">
+          <img class="left" src="images/previous.svg" alt="previous photo button">
+          <img class="left-hover" src="images/right-arrow.svg" alt="previous photo button">
+        </button>
+        <button  aria-label="next photo">
+          <img class="right" src="images/next.svg" alt="next photo button">
+          <img class="right-hover" src="images/right-arrow.svg" alt="next photo button">
+        </button>
       </div>
-      <div></div>
+      <div class="spaceholder"></div>
     </section>
+    <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
   </body>
 </html>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 440 440" style="enable-background:new 0 0 440 440;" xml:space="preserve" width="512px" height="512px" class=""><g><g id="XMLID_4_">
+	<path id="XMLID_1002_" d="M410.872,225c2.061,5.822,7.6,10,14.128,10c8.284,0,15-6.716,15-15v-80c0-8.284-6.716-15-15-15   c-6.528,0-12.066,4.178-14.128,10H360V40c0-13.807-11.193-25-25-25H105c-13.807,0-25,11.193-25,25v95H29.128   c-2.061-5.822-7.6-10-14.128-10c-8.284,0-15,6.716-15,15v80c0,8.284,6.716,15,15,15c6.528,0,12.066-4.178,14.128-10H50v110   c-0.04,0-0.153,0-0.322,0c-1.227,0-5.385,0.003-5.677,0.009C19.61,335.541,0,355.481,0,380c0,24.853,20.148,45,45,45h350   c24.852,0,45-20.147,45-45c0-24.747-19.978-44.83-44.686-44.998C395.209,335,390.104,335,390,335V225H410.872z M110,135V45h220v90   H110z M30,195v-30h380v30H30z M395.16,365c8.188,0.086,14.84,6.803,14.84,15c0,8.272-6.728,15-15,15H45c-8.271,0-15-6.728-15-15   c0-8.049,6.502-14.748,14.484-14.994C45.441,365.002,80,365.1,80,365.1V225h80.415c16.452,13.235,37.28,21,59.585,21   s43.133-7.765,59.585-21H360v140C360,365,394.455,365,395.16,365z" data-original="#000000" class="active-path" data-old_color="#eceff1" fill="#eceff1"/>
+	<circle id="XMLID_1007_" cx="310" cy="290" r="15" data-original="#000000" class="active-path" data-old_color="#eceff1" fill="#eceff1"/>
+	<circle id="XMLID_1008_" cx="250" cy="290" r="15" data-original="#000000" class="active-path" data-old_color="#eceff1" fill="#eceff1"/>
+	<circle id="XMLID_1009_" cx="190" cy="290" r="15" data-original="#000000" class="active-path" data-old_color="#eceff1" fill="#eceff1"/>
+	<circle id="XMLID_1010_" cx="130" cy="290" r="15" data-original="#000000" class="active-path" data-old_color="#eceff1" fill="#eceff1"/>
+	<circle id="XMLID_1011_" cx="310" cy="350" r="15" data-original="#000000" class="active-path" data-old_color="#eceff1" fill="#eceff1"/>
+	<circle id="XMLID_1012_" cx="130" cy="350" r="15" data-original="#000000" class="active-path" data-old_color="#eceff1" fill="#eceff1"/>
+	<path id="XMLID_1013_" d="M250,335h-60c-8.284,0-15,6.716-15,15s6.716,15,15,15h60c8.284,0,15-6.716,15-15S258.284,335,250,335z" data-original="#000000" class="active-path" data-old_color="#eceff1" fill="#eceff1"/>
+	<rect id="XMLID_1014_" x="140" y="75" width="160" height="30" data-original="#000000" class="active-path" data-old_color="#eceff1" fill="#eceff1"/>
+</g></g> </svg>
